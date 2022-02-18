@@ -1,0 +1,167 @@
+@charset "utf-8";
+@font-face {
+    font-family: "GenshinFont";
+    src: url("zh-cn.ttf");
+}
+
+body{
+    background-image: url(images/Ayaka_BG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1em;
+    font-family: "GenshinFont";
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.profile{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#bg {
+    background-image: url("images/cryobg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5em;
+    padding: 3.5em;
+    border-radius: 30px;
+    width: 70vw;
+    box-shadow:  10px 10px 15px 10px rgb(5, 47, 66);
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#pic {
+    display: inline-block;
+    width: fit-content !important; 
+    margin-right: 0px !important;
+}
+
+#pic > img{
+    width: auto;
+    height: 450px;
+    border: 5px solid rgb(166, 245, 255);
+    border-radius: 20px;
+    box-shadow:  3px 5px 5px 3px rgb(14, 116, 129);
+}
+
+#pic2 {
+    display: inline-block;
+    width: fit-content !important; 
+    margin-right: 0px !important;
+}
+
+#pic2 > img{
+    width: auto;
+    height: 450px;
+    border: 5px solid rgb(166, 245, 255);
+    border-radius: 20px;
+    box-shadow:  3px 5px 5px 3px rgb(14, 116, 129);
+}
+
+#name {
+    display: flex;
+    justify-content: center;
+}
+
+#name > img {
+    width: auto;
+    height: 4rem;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#name > p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+.info {
+    display: block;
+    align-items: center;
+}
+
+.charinfo{
+    margin-top: 1em;
+    margin-bottom: 2em;
+    border-top: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.charinfo > p {
+    text-align: center;
+}
+
+.skillimg {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.skillimg > img {
+    width: auto;
+    height: 50px;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.skillimg > p {
+    font-size: 1em;
+    font-weight: 900;
+}
+
+.name-skill {
+    font-weight: 900;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+#skill-text{
+    text-align: left;
+}
+
+#skill-text > ul > li {
+    padding-bottom: 1em;
+}
+
+#specialdish{
+    width: auto;
+    height: 25px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.bio{
+    text-align: center;
+    width: 100%;
+}
+
+.charskills {
+    padding: 0 10rem;
+}
+
+#about {
+    margin: 3rem;
+}
